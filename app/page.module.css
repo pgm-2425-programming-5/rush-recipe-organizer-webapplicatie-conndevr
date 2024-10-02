@@ -1,0 +1,53 @@
+.navContainer {
+    background: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
+    padding: 1rem; /* Space around the nav */
+    position: absolute; /* Positioning to float over the background */
+    top: 0; /* Align to the top */
+    left: 0; /* Align to the left */
+    right: 0; /* Align to the right */
+}
+
+.nav {
+    display: flex; /* Flexbox for horizontal layout */
+    justify-content: center; /* Center links */
+    gap: 1rem;
+}
+
+
+
+.container {
+    background-image: url('./data/img/bg-1.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    min-height: 100vh; 
+
+}
+
+.hero {
+    margin: 0 auto;
+    padding: 15rem 0;
+    max-width: 12rem;
+}
+
+
+.welcomeText {
+    font-size: 2rem;
+    font-weight: bold;
+    color: black; /* Blue */
+  }
+
+  .button {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    background-color: #2563eb; /* Blue */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #1d4ed8; /* Darker blue on hover */
+  }
